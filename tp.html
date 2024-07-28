@@ -21,9 +21,10 @@
             </div>
             <nav>
                 <button class="button btn1" ><a href="#About">About</a></button>
-                <button class="button btn1" ><a href="My Skills">My Skills</a></button>
-                <button class="button btn1" ><a href="My Projects">My Projects</a></button>
-                <button class="button btn1" ><a href="#Contact Me">Contact Me</a></button>
+                <button class="button btn1" ><a href="#MySkills">My Skills</a></button>
+                <button class="button btn1" ><a href="#MyProjects">My Projects</a></button>
+                <button class="button btn1" ><a href="#ContactMe">Contact Me</a></button>
+                <button class="button btn1" id="downloadButton"><a href="#">Download Resume</a></button>
             </nav>
         </div>
         <div class="hero-content">
@@ -48,7 +49,8 @@
         </div>
     </div>
 
-    <button class="projects-btn" id="My Projects">
+  <div id="MyProjects">
+    <button class="projects-btn">
         <p>See My Projects</p>
         <div>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
@@ -57,7 +59,7 @@
         </div>
     </button>
 
-    <div class="main-card" id="My Projects">
+    <div class="main-card">
         <div class="project-card" id="My Projects">
             <img src="./assets/project1.jpg" />
             <div class="project-content">
@@ -66,24 +68,25 @@
             </div>
         </div>
         <div class="project-card">
-            <img src="/assets/project2.gif" />
+            <img src=".//assets/project2.gif" />
             <div class="project-content">
                 <button class="card-btn btn2">Project Link</button>
                 <button class="card-btn btn2">Project Code</button>
             </div>
         </div>
         <div class="project-card">
-            <img src="/assets/project3.gif" />
+            <img src="./assets/project3.gif" />
             <div class="project-content">
                 <button class="card-btn btn2">Project Link</button>
                 <button class="card-btn btn2">Project Code</button>
             </div>
         </div>
     </div>
+  </div>
 
 
     <h2 style="text-align: center;" >My Skills</h2>
-    <div class="skills-main-container" >
+    <div id="MySkills" class="skills-main-container" >
         <div class="container" id="My Skills">
             <div class="section">
                 <h1 class="section-title">Languages</h1>
@@ -197,7 +200,7 @@
     </div>
 
     <!-- Footer starts -->
-    <div id="Contact Me">
+    <div id="ContactMe">
         <div style="display: flex; justify-content: center; align-items: center; height: 100px; background-color: #7510f7; gap: 30px;">
             <!-- Whatspp -->
             <div>
@@ -233,13 +236,15 @@
         </div>
         
     </div>
-    <div class="fixed-bottom" style="display: flex; justify-content: center; align-items: center; height: 100px; background-color: #7510f7; color:#fff;>
+    <div class="fixed-bottom" style="display: flex; justify-content: center; align-items: center; height: 100px; background-color: #7510f7; color:#fff;">
         <div class="notification">
             <p>
                 For freelancing Contact Me
-                <a style="color: white!important;" href="#"> Please dm through the Whatspp </a>
+                <a  href="#" style="color: white;"> Please dm through the Whatspp </a>
             </p>
         </div>
       </div>
+
+      <script src="./script.js"></script>
 </body>
 </html>

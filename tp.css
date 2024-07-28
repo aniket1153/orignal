@@ -42,7 +42,12 @@ nav .button {
     margin: 0 5px;
     cursor: pointer;
     border-radius: 15px;
+    font-weight: bold;
 }
+/* nav .button:hover{
+    background-color: #5c10c0;
+    color: #f4f4f4 !important;
+} */
 
 .hero-content .hero-txt {
     font-size: 2.5em;
@@ -87,6 +92,9 @@ nav .button {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+}
+.projects-btn:hover{
+    background-color: #5c10c0;
 }
 
 .projects-btn p {
